@@ -35,7 +35,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
-    "onboarding.tips.debug.path": "D:/Self-improvement/Estudo/Alura/Formações/JAVA/001_intro/ex_01_11/src/Main.java"
+    "onboarding.tips.debug.path": "D:/Self-improvement/Estudo/Alura/Formações/JAVA/001_intro/ex_01_11/src/Main.java",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -48,5 +49,9 @@
       <updated>1715996457045</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

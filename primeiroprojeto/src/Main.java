@@ -11,7 +11,12 @@ public class Main {
         double media = (9.8 + 6.3 + 8.0) / 3;
         System.out.println(media);
         String sinopse;
-        sinopse = "Filme de aventura com galã dos anos 80";
-        System.out.println(sinopse);
+        sinopse = """
+        Filme Top Gun;
+        Filme de aventura com galã dos anos 80
+        Muito bom!
+        Ano de lançamento:
+        """ + anoDeLancamento;
+        System.out.println(sinopse); // exemplo de text block (Java 15)
     }
 }

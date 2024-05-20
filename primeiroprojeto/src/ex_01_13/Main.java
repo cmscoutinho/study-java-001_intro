@@ -1,4 +1,6 @@
-public class Exercicio13 {
+package ex_01_13;
+
+public class Main {
     public static void main(String[] args) {
         double tempCelsius = 25.0;
         double tempFahrenheit;

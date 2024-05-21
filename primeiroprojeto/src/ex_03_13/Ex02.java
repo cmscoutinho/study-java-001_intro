@@ -2,6 +2,8 @@ package ex_03_13;
 
 import java.util.Scanner;
 
+//2. Peça ao usuário para inserir dois números inteiros. Compare os números e imprima uma mensagem indicando se são iguais, diferentes, o primeiro é maior ou o segundo é maior.
+
 public class Ex02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

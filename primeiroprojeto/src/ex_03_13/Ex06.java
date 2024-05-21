@@ -1,0 +1,19 @@
+package ex_03_13;
+
+import java.util.Scanner;
+
+public class Ex06 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite um número: ");
+        int numero = scanner.nextInt();
+
+        int produto = 1;
+        for (int i = numero; i > 0; i--) {
+            produto *= i;
+        }
+
+        System.out.println("O fatorial de %d é %d!".formatted(numero,produto));
+    }
+}

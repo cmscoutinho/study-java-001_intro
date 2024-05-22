@@ -43,13 +43,14 @@ public class Main {
     }
 
     private static void exibeMsgInicial(String nomeCliente, TipoConta tipoConta, double saldoInicial) {
-        System.out.println("**************************************");
-        System.out.println("Dados iniciais do cliente:");
-        System.out.println("");
-        System.out.println("Nome:\t\t\t%s".formatted(nomeCliente));
-        System.out.println("Tipo conta:\t\t%s".formatted(tipoConta));
-        System.out.println("Saldo inicial: \tR$ %.2f".formatted(saldoInicial));
-        System.out.println("**************************************");
+        System.out.println("""
+        **************************************
+        Dados iniciais do cliente:
+        
+        Nome:\t\t\t%s".formatted(nomeCliente));
+        Tipo conta:\t\t%s".formatted(tipoConta));
+        Saldo inicial: \tR$ %.2f".formatted(saldoInicial));
+        **************************************""");
     }
 
     private static void exibeMenu() {

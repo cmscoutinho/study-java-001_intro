@@ -84,7 +84,9 @@ public class Main {
             System.out.println("O valor da transferência não pode exceder o saldo!");
             return saldo;
         } else {
-            return saldo - transferencia;
+            saldo -= transferencia;
+            System.out.println("Novo saldo: R$ %.2f".formatted(saldo));
+            return saldo;
         }
     }
 

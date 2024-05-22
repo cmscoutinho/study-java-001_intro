@@ -56,7 +56,6 @@ public class Main {
     private static void exibeMenu() {
         System.out.println("""
         Operações:
-        
         1- Consultar saldo
         2- Receber valor
         3- Transferir valor
